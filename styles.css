@@ -8,12 +8,31 @@ body {
     padding:10px;
     margin:10px;
     background: turquoise;
+    border-radius:15px;
 }
 
 .assignment img {
-    padding: 10px;
+    margin:10px;
+    border:4px solid #F21B1B;
 }
+.assignment img:hover{
+    border:4px dashed #FF00FF;
+}
+
 h1{
     color: whitesmoke;
     text-align:center;
+}
+
+h1:hover{
+    color: #FF00FF;
+}
+
+a{
+    text-decoration:none;
+    color:#F21B1B;
+}
+
+a:hover{
+    color:#FF00FF;
 }
